@@ -12,6 +12,8 @@ import { SubjectsPage } from '../pages/subjects/subjects';
 import { SingleSubjectsPage } from '../pages/single-subjects/single-subjects';
 import { SingleTaskPage } from '../pages/single-task/single-task';
 import { SettingsPage } from '../pages/settings/settings';
+import { UsersInfosPage } from '../pages/users-infos/users-infos';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SettingsPage } from '../pages/settings/settings';
     SubjectsPage,
     SingleSubjectsPage,
     SingleTaskPage,
-    SettingsPage
+    SettingsPage,
+    UsersInfosPage,
+    WelcomePage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,9 @@ import { SettingsPage } from '../pages/settings/settings';
     SubjectsPage,
     SingleSubjectsPage,
     SingleTaskPage,
-    SettingsPage
+    SettingsPage,
+    UsersInfosPage,
+    WelcomePage
   ],
   providers: [
     StatusBar,
